@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+< lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Self Improvement Strategy</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    text-align: center;
+}
+
+/* TOP BAR */
+.topbar {
+    background: rgba(70, 130, 180, 0.8);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.topbar img {
+    height: 60px;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(rgba(0,0,60,0.6), rgba(0,0,60,0.6)),
+    url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 15px rgba(0,0,0,0.7);
+}
+
+/* BUTTON SECTION */
+.button-section {
+    background: linear-gradient(to bottom, rgba(173,216,230,0.3), rgba(135,206,250,0.3));
+    padding: 100px 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons button {
+    width: 400px;
+    height: 120px;
+    margin: 30px;
+    font-size: 28px;
+    border: 3px solid white;
+    border-radius: 25px;
+    background-color: #002b5c;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.buttons button:hover {
+    background-color: #0055aa;
+    box-shadow: 0 0 35px rgba(0,85,170,0.8);
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+.footer {
+    background-color: rgba(0, 43, 92, 0.7);
+    padding: 50px 25px;
+    color: black;
+}
+
+.footer .members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+</style>
+
+</head>
+
+<>
+
+<div class="topbar">
+    <div>Module: Human Engineering</div>
+    <div>Group: 5B</div>
+
+    <!-- الشعار -->
+    <img src="logo.png" alt="Logo ENP">
+</div>
+
+<div class="header">
+    <h1>Self Improvement Strategy for the Modern Engineer</h1>
+</div>
+
+<div class="button-section">
+    <div class="buttons">
+
+        <!-- PDF (تم التعديل هنا) -->
+        <button onclick="window.open('https://drive.google.com/file/d/11sT4O1xbu2Oe_4ZlM0HpzSprzL0f1VVu/preview','_blank')">
+         PDF   <i class="fas fa-file-pdf"></i> 
+        </button>
+
+        <!-- PowerPoint -->
+        <button>
+            <i class="fas fa-file-powerpoint"></i> PowerPoint
+        </button>
+
+        <!-- Video -->
+        <button>
+            <i class="fas fa-video"></i> Video
+        </button>
+
+        <!-- Sources -->
+        <button onclick="document.getElementById('sources').scrollIntoView({behavior: 'smooth'})">
+            <i class="fas fa-book"></i> Sources
+        </button>
+
+    </div>
+</div>
+
+<div class="footer">
+    <h3>Group Members</h3>
+    <div class="members">
+        <div>
+            • GUEZLANE Dyna<br>
+            • HAMA Tinhenan<br>
+            • GUERROUMI Zineb<br>
+            • HAMANA Douaa<br>
+            • HADJ SADOK Maroua<br>
+            • GUEZOUI Samy<br>
+            • GUEZOU Wael<br>
+            • HADJAB Abdelhakim
+        </div>
+        <div>
+            • HAMAI Nazim<br>
+            • HABES Samy<br>
+            • Halil Rayane<br>
+            • HAMDAOUI Fares<br>
+            • HADID Yacine<br>
+            • HAMDACHE Nassim Ali<br>
+            • GUENANE Ines<br>
+            • HALOUADJI Rayane
+        </div>
+        <div>
+            • GUETAF Amel<br>
+            • HALLAS Meriem<br>
+            • HADDADI Mohamed Amine<br>
+            • GUESSOUM Ismail<br>
+            • GUENDOUZ Madjid Abd Eldjalil
+        </div>
+    </div>
+</div>
+
+<!-- قسم المصادر -->
+<div id="sources" style="padding: 80px 20px; background-color: #f5f7fa;">
+    <h2>References</h2>
+
+    <ul style="max-width: 800px; margin: auto; line-height: 2; text-align: left;">
+        <li>Covey, Stephen R. (1989). The 7 Habits of Highly Effective People.</li>
+        <li>Dweck, Carol S. (2006). Mindset: The New Psychology of Success.</li>
+        <li>Senge, Peter M. (1990). The Fifth Discipline.</li>
+        <li>Kolb, David A. (1984). Experiential Learning.</li>
+        <li>World Economic Forum (2020). Future of Jobs Report.</li>
+        <li>IEEE (2023). Engineering Skills Guidelines.</li>
+        <li>Drucker, Peter F. (2005). Managing Oneself.</li>
+        <li>OECD (2019). Skills for the Digital Age.</li>
+        <li>McKinsey & Company (2021). Future of Work.</li>
+        <li>Harvard Business Review (Various Articles).</li>
+    </ul>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
